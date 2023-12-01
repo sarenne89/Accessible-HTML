@@ -1,3 +1,5 @@
+/* Applies to the whole page */
+
 * {
     box-sizing: border-box;
     padding: 0;
@@ -8,6 +10,8 @@
 body {
     background-color: #d9dcd6;
 }
+
+/* Header and navbar */
 
 header {
     padding: 20px;
@@ -47,9 +51,13 @@ a {
     text-decoration: none;
 }
 
+/* Applies within the <main> body of the page */
+
 p {
     font-size: 18px;
 }
+
+/* Hero section */
 
 .hero {
     height: 800px;
@@ -59,6 +67,8 @@ p {
     background-size: cover;
     background-position: center;
 }
+
+/* images within the .content artuicles */
 
 .float-left {
     float: left;
@@ -75,6 +85,25 @@ p {
     display: inline-block;
     margin-left: 20px;
 }
+
+.content article {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    background-color: #2589bd;
+    color: #ffffff;
+}
+
+.content article img {
+    max-height: 200px;
+}
+
+.content article h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+/* Styles for the benefits bar that lives to the right of the page */
 
 .benefits {
     margin-right: 20px;
@@ -102,22 +131,7 @@ p {
     max-width: 150px;
 }
 
-.content article {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    background-color: #2589bd;
-    color: #ffffff;
-}
-
-.content article img {
-    max-height: 200px;
-}
-
-.content article h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
+/* Styles for the <footer> at the bottom of the page */
 
 footer {
     padding: 30px;
